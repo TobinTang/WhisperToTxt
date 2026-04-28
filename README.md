@@ -1,6 +1,6 @@
 #  WhisperToTxt
 
-WhisperToTxt 是将 MP4 视频转换为文字内容的工具（基于 whisper.cpp），  
+将 MP4 视频转换为文字内容的工具（基于 whisper.cpp），  
 同时提供视频转码（H.264）功能，用于解决部分设备（如 TV）播放 MP4 有声音无图像的问题。
 
 ---
@@ -15,7 +15,7 @@ WhisperToTxt 是将 MP4 视频转换为文字内容的工具（基于 whisper.cp
 
 ---
 
-##  使用环境：  Windows10或以上的的DOS窗口 （CMD）
+##  使用环境：  Windows10 或以上的 DOS窗口 （CMD）
 
 ## 📦 依赖环境
 
@@ -116,7 +116,6 @@ transcribe.bat "input\test.mp4" duration
 | 可以指定目标目录
 
 
----
 ---
 
 ## 🎬 MP4 视频转码（H.264）
