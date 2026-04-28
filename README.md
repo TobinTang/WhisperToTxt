@@ -68,9 +68,8 @@ project/
 ├─ models/
 │  ├─ ggml-small-q8_0.bin
 │  └─ ggml-large-v3-turbo.bin
-├─ bin/
-│  ├─ ffmpeg.exe
-│  └─ ffprobe.exe
+├─ ffmpeg.exe
+├─ ffprobe.exe
 ├─ whisper-cli.exe
 ├─ input/
 └─ output/
