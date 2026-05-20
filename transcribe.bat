@@ -350,6 +350,11 @@ if errorlevel 1 (
     echo   %C_ERR%plain txt generation failed:%C_RESET% !CURRNAME!
     endlocal & exit /b 1
 )
+if not exist "!PLAINTXT!" type nul > "!PLAINTXT!"
+if not exist "!PLAINTXT!" (
+    echo   %C_ERR%plain txt not generated:%C_RESET% !CURRNAME!
+    endlocal & exit /b 1
+)
 
 if "!CLEAN!"=="1" (
     call :ENHANCE_CLEAN_PRO "!PLAINTXT!"
